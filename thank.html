@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+   <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1">
+   <title></title>
+   <style>
+.button {
+  display: inline-block;
+  border-radius: 4px;
+  background: rgba(27, 31, 34, 0.80);
+  border: none;
+  color: #FFFFFF;
+  text-align: center;
+  font-size: 28px;
+  padding: 20px;
+  width: 120px;
+  transition: all 0.5s;
+  cursor: pointer;
+  margin: 5px;
+}
+
+.button span {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 0.5s;
+}
+
+.button span:after {
+  content: '\00bb';
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  right: -20px;
+  transition: 0.5s;
+}
+
+.button:hover span {
+  padding-right: 25px;
+}
+
+.button:hover span:after {
+  opacity: 1;
+  right: 0;
+}
+</style>
+<style>
+a:link, a:visited {
+  background: rgba(27, 31, 34, 0.80);
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+}
+
+</style>
+
+   <style>
+      *{
+         margin: 0;
+         padding: 0;
+      }
+      #back{
+        background: rgba(27, 31, 34, 0.80);
+        width: 640px;
+        margin: 50px auto;
+        max-width: 97%;
+        border-radius: 4px;
+        padding: 55px 30px;
+      }
+      #back span{
+         color: white;
+         font-weight: 900;
+         text-align: right;
+      }
+      #back span:hover{
+         color: darkturquoise;
+      }
+   </style>
+</head>
+<body>
+   <center>
+      <div id="back">
+         <br><br>
+         <h2 id="thank" style="color: #ff5d00;">thank you. <b style="color: lavender;">Done send for admin</b> </h2><br><br>
+         <br><br><br>
+         <span>شكرا لك تم ارسال الرساله بنجاح اذا احتجت اي شي قم بارساله وسوف نرد عليك باسرع وقت ممكن مع تحياتي لك<br> 
+         المطور : راشد كريم  </span>
+         
+         <br><br><br><br>
+         
+         <button  class="button" style="vertical-align:middle"><span><a href="https://iraq-hacker.github.io/info-rhp/">Back</a></span></button>
+      </div>
+      
+      <p>&copy; 2022 <b style="color : #ff5d00;">Rhp movies </b style="color : #fff ;">All Rights Reserved</p>
+      
+   </center>
+   
+</body>
+
+</html>
